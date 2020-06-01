@@ -31,4 +31,7 @@ This is a main repo for smagri apps
 * Gunakan Aksitektur One Activity Many Fragment.
 * Dokumentasi komponen jetpack bisa dilihat disini [Link Documentasi](https://developer.android.com/jetpack)
 * Gunakan sistem branch pada github, dan memang jika fitur yang dikerjakan sudah siap di merge silahkan lakukan **Pull Request**
+* Penamaan branch **HARUS** mengikuti nama fitur yang dikerjakan ex. Fitur Login, nama branch : fiturLogin
+* Dokumentasi secara baik code yang ditulis dengan fitur komen.
+* Coding bisa pakai Java atau Kotlin , tapi disarankan menggunakan Kotlin.
 
