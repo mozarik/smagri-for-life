@@ -8,8 +8,8 @@ This is a main repo for smagri apps
 
 ### Work To Do
 
-- [x] Test check
-- [ ] Test not check
+- [ ] Login Fragment
+- [ ] Registration Fragment
 
 <hr />
 
@@ -18,8 +18,8 @@ This is a main repo for smagri apps
   * Lita Sarlita
   
 ### Work To Do
-- [x] Test check
-- [ ] Test not check
+- [ ] User Profile Fragment
+
 <hr />
 
 
