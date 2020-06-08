@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_login_to_registerFragment2"
             app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_login_to_main_fragment_withBottomNav2"
+            app:destination="@id/main_fragment_withBottomNav2" />
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
@@ -23,4 +26,9 @@
             android:id="@+id/action_registerFragment_to_login"
             app:destination="@id/login" />
     </fragment>
+    <fragment
+        android:id="@+id/main_fragment_withBottomNav2"
+        android:name="com.example.smagri_main.main_fragment_withBottomNav"
+        android:label="fragment_main_with_bottom_nav"
+        tools:layout="@layout/fragment_main_with_bottom_nav" />
 </navigation>
