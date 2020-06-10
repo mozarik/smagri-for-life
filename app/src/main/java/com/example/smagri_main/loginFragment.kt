@@ -1,5 +1,6 @@
 package com.example.smagri_main
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -21,8 +22,11 @@ class login : Fragment() {
 
         //After we hit the login button on the login fragment we navigate to Home Fragment
         view.login_login_btn.setOnClickListener {
-            Navigation.findNavController(view)
-                .navigate(R.id.action_login_to_main_fragment_withBottomNav2)
+//            Navigation.findNavController(view)
+//                .navigate(R.id.action_login_to_afterlogin_navigation)
+            val intent = Intent(activity, AfterLoginActivity::class.java)
+            intent.putExtra("some", "some data")
+            startActivity(intent)
             Toast.makeText(
                 context,
                 "Login button on Login Fragment has Ben Clicked",
