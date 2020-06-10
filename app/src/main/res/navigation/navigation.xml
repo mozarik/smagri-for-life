@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_login_to_registerFragment2"
             app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_login_to_afterlogin_navigation"
+            app:destination="@id/afterlogin_navigation" />
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
@@ -23,4 +26,5 @@
             android:id="@+id/action_registerFragment_to_login"
             app:destination="@id/login" />
     </fragment>
+    <include app:graph="@navigation/afterlogin_navigation" />
 </navigation>
