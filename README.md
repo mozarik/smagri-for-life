@@ -7,9 +7,7 @@ This is a main repo for smagri apps
   * Faiq Azmii
 
 ### Work To Do
-
-- [ ] Login Fragment
-- [ ] Registration Fragment
+Lihat Issues
 
 <hr />
 
@@ -18,7 +16,7 @@ This is a main repo for smagri apps
   * Lita Sarlita
   
 ### Work To Do
-- [ ] User Profile Fragment
+Lihat Issues
 
 <hr />
 
