@@ -1,24 +1,11 @@
+| Nama        | NIM         |
+| -----------     | ----------- |
+| M Zein Fahrozi      | 2018-072 (C)       |
+| Nama   | Nim        |
+
 # main-smagri
-This is a main repo for smagri apps
+This is a second repo for smagri apps
 
-
-# Team 1 :
-  * Zein Fahrozi
-  * Faiq Azmii
-
-### Work To Do
-Lihat Issues
-
-<hr />
-
-# Team 2 : 
-  * Iqlima Chairunnisa
-  * Lita Sarlita
-  
-### Work To Do
-Lihat Issues
-
-<hr />
 
 
 
