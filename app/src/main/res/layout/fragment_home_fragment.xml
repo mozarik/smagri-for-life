@@ -313,7 +313,8 @@
                             android:gravity="top"
                             android:text="@string/kangkung_rp"
                             android:textAppearance="@style/kangkung_rp"
-                            android:textSize="20sp" />
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -347,7 +348,7 @@
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
                             android:gravity="top"
-                            android:text="Brokoli"
+                            android:text="@string/brokoli_rp"
                             android:textAppearance="@style/kangkung_rp"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -384,9 +385,10 @@
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
                             android:gravity="top"
-                            android:text="@string/kangkung_rp"
+                            android:text="@string/alpukat"
                             android:textAppearance="@style/kangkung_rp"
-                            android:textSize="20sp" />
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -419,9 +421,10 @@
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
                             android:gravity="top"
-                            android:text="@string/kangkung_rp"
+                            android:text="@string/apel"
                             android:textAppearance="@style/kangkung_rp"
-                            android:textSize="20sp" />
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -453,8 +456,9 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
+                            android:textStyle="bold"
                             android:gravity="top"
-                            android:text="@string/kangkung_rp"
+                            android:text="@string/lemon"
                             android:textAppearance="@style/kangkung_rp"
                             android:textSize="20sp" />
                     </LinearLayout>
@@ -489,7 +493,8 @@
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
                             android:gravity="top"
-                            android:text="@string/kangkung_rp"
+                            android:text="@string/anggur"
+                            android:textStyle="bold"
                             android:textAppearance="@style/kangkung_rp"
                             android:textSize="20sp" />
                     </LinearLayout>
