@@ -8,6 +8,26 @@
     Kangkung\nRp4.400/500gram \n
 </string>
 
+    <string name="brokoli_rp">
+    Brokoli\nRp32.400/500gram \n
+</string>
+
+    <string name="alpukat">
+    Alpukat\nRp83.400/1kg \n
+</string>
+
+    <string name="apel">
+    Apel\nRp30.400/1kg \n
+</string>
+
+    <string name="lemon">
+    Lemon\nRp60.400/1kg \n
+</string>
+
+    <string name="anggur">
+    Anggur\nRp60.400/1kg \n
+</string>
+
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
 
 </resources>

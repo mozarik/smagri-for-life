@@ -291,11 +291,19 @@
                         android:orientation="horizontal">
 
                         <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="134dp"
+                            android:layout_height="134dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/gambar_kangkung" />
+
+                        <ImageView
                             android:layout_width="134dp"
                             android:layout_height="134dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="12dp"
-                            android:src="@mipmap/ic_launcher_round" />
+                            android:src="@mipmap/ic_launcher_round"
+                            app:srcCompat="@drawable/gambar_kangkung" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -304,6 +312,189 @@
                             android:layout_marginTop="20dp"
                             android:gravity="top"
                             android:text="@string/kangkung_rp"
+                            android:textAppearance="@style/kangkung_rp"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/grey"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="134dp"
+                            android:layout_height="134dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="12dp"
+                            android:src="@mipmap/ic_launcher_round"
+                            app:srcCompat="@drawable/gambar_brokoli" />
+
+                        <TextView
+                            android:id="@+id/brokoli"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:gravity="top"
+                            android:text="@string/brokoli_rp"
+                            android:textAppearance="@style/kangkung_rp"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/grey"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="134dp"
+                            android:layout_height="134dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="12dp"
+                            android:src="@mipmap/ic_launcher_round"
+                            app:srcCompat="@drawable/gambar_alpukat" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:gravity="top"
+                            android:text="@string/alpukat"
+                            android:textAppearance="@style/kangkung_rp"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/grey"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="134dp"
+                            android:layout_height="134dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="12dp"
+                            android:src="@mipmap/ic_launcher_round"
+                            app:srcCompat="@drawable/gambar_apple" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:gravity="top"
+                            android:text="@string/apel"
+                            android:textAppearance="@style/kangkung_rp"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/grey"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="134dp"
+                            android:layout_height="134dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="12dp"
+                            android:src="@mipmap/ic_launcher_round"
+                            app:srcCompat="@drawable/gambar_lemon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:textStyle="bold"
+                            android:gravity="top"
+                            android:text="@string/lemon"
+                            android:textAppearance="@style/kangkung_rp"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/grey"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="134dp"
+                            android:layout_height="134dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="12dp"
+                            android:src="@mipmap/ic_launcher_round"
+                            app:srcCompat="@drawable/gambar_anggurhijau" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:gravity="top"
+                            android:text="@string/anggur"
+                            android:textStyle="bold"
                             android:textAppearance="@style/kangkung_rp"
                             android:textSize="20sp" />
                     </LinearLayout>
@@ -343,175 +534,6 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:layout_margin="10dp"
-                    app:cardBackgroundColor="@color/grey"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="5dp">
-
-                    <LinearLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="left"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="134dp"
-                            android:layout_height="134dp"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="12dp"
-                            android:src="@mipmap/ic_launcher_round" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="20dp"
-                            android:gravity="top"
-                            android:text="@string/kangkung_rp"
-                            android:textAppearance="@style/kangkung_rp"
-                            android:textSize="20sp" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:layout_margin="10dp"
-                    app:cardBackgroundColor="@color/grey"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="5dp">
-
-                    <LinearLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="left"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="134dp"
-                            android:layout_height="134dp"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="12dp"
-                            android:src="@mipmap/ic_launcher_round" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="20dp"
-                            android:gravity="top"
-                            android:text="@string/kangkung_rp"
-                            android:textAppearance="@style/kangkung_rp"
-                            android:textSize="20sp" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:layout_margin="10dp"
-                    app:cardBackgroundColor="@color/grey"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="5dp">
-
-                    <LinearLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="left"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="134dp"
-                            android:layout_height="134dp"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="12dp"
-                            android:src="@mipmap/ic_launcher_round" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="20dp"
-                            android:gravity="top"
-                            android:text="@string/kangkung_rp"
-                            android:textAppearance="@style/kangkung_rp"
-                            android:textSize="20sp" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:layout_margin="10dp"
-                    app:cardBackgroundColor="@color/grey"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="5dp">
-
-                    <LinearLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="left"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="134dp"
-                            android:layout_height="134dp"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="12dp"
-                            android:src="@mipmap/ic_launcher_round" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="20dp"
-                            android:gravity="top"
-                            android:text="@string/kangkung_rp"
-                            android:textAppearance="@style/kangkung_rp"
-                            android:textSize="20sp" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp"
-                    android:layout_margin="10dp"
-                    app:cardBackgroundColor="@color/grey"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="5dp">
-
-                    <LinearLayout
-
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="left"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="134dp"
-                            android:layout_height="134dp"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="12dp"
-                            android:src="@mipmap/ic_launcher_round" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="20dp"
-                            android:gravity="top"
-                            android:text="@string/kangkung_rp"
-                            android:textAppearance="@style/kangkung_rp"
-                            android:textSize="20sp" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
             </GridLayout>
         </LinearLayout>
 
