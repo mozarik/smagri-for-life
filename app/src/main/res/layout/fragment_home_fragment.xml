@@ -302,8 +302,7 @@
                             android:layout_height="134dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="12dp"
-                            android:src="@mipmap/ic_launcher_round"
-                            app:srcCompat="@drawable/gambar_kangkung" />
+                            android:src="@drawable/gambar_kangkung" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -338,7 +337,7 @@
                             android:layout_height="134dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="12dp"
-                            android:src="@mipmap/ic_launcher_round"
+                            android:src="@drawable/gambar_brokoli"
                             app:srcCompat="@drawable/gambar_brokoli" />
 
                         <TextView
@@ -376,7 +375,7 @@
                             android:layout_height="134dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="12dp"
-                            android:src="@mipmap/ic_launcher_round"
+                            android:src="@drawable/gambar_alpukat"
                             app:srcCompat="@drawable/gambar_alpukat" />
 
                         <TextView
@@ -412,7 +411,7 @@
                             android:layout_height="134dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="12dp"
-                            android:src="@mipmap/ic_launcher_round"
+                            android:src="@drawable/gambar_apple"
                             app:srcCompat="@drawable/gambar_apple" />
 
                         <TextView
@@ -448,7 +447,7 @@
                             android:layout_height="134dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="12dp"
-                            android:src="@mipmap/ic_launcher_round"
+                            android:src="@drawable/gambar_lemon"
                             app:srcCompat="@drawable/gambar_lemon" />
 
                         <TextView
@@ -484,7 +483,7 @@
                             android:layout_height="134dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="12dp"
-                            android:src="@mipmap/ic_launcher_round"
+                            android:src="@drawable/gambar_anggurhijau"
                             app:srcCompat="@drawable/gambar_anggurhijau" />
 
                         <TextView
